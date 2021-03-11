@@ -1,0 +1,78 @@
+.leagueInfo{}
+.leagueInfo .detail-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.leagueInfo .gender-img-box img{
+    width: 100%;
+}
+.leagueInfo .detail-box p{
+    margin:0;
+    line-height: 30px;
+}
+
+.leagueDetail{
+    background: white;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin:20px auto 0;
+}
+.footer-social{
+    margin: 20px auto;
+}
+.footer-social a{
+
+   border-radius: 200px;
+    margin: 2px;
+    background-color: white;
+    text-align: center;
+    width:50px;
+    height: 50px;
+    
+}
+.footer-social a svg{
+    font-size: 20px;
+    border-radius:200px;
+    color:white;
+    
+   
+
+}
+.footer-social a:nth-child(1){
+    background-color: #2558ff;
+    padding:10px
+}
+.footer-social a:nth-child(1) svg{
+    color:white;
+    background-color: #2558ff;
+    height: 30px;
+    width: 30px;
+}
+
+
+.footer-social a:nth-child(2){
+    background-color: #25b5ff;
+    padding:10px
+}
+.footer-social a:nth-child(2) svg{
+    background-color:#25b5ff;
+    width:30px;
+    height: 30px;
+}
+
+.footer-social a:nth-child(3){
+    background-color: red;
+    padding:10px
+}
+.footer-social a:nth-child(3) svg{
+    background-color:red;
+    width:30px;
+    height: 30px;
+}
+
+.gotoHome a,.gotoHome a:hover{
+    color: black;
+    display: inline-block;
+
+}

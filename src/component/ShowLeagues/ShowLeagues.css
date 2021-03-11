@@ -1,0 +1,53 @@
+.league-box{
+    padding: 10px;
+    text-align: center;
+}
+
+.league-box .inner-box{
+    margin: 10px 0;
+    padding: 15px 0;
+    background:rgba(254,254,254,1);
+    outline:green solid 5px;
+    outline-offset: -15px;
+    transition:500ms;
+}
+
+.league-box:hover .inner-box{
+    outline-offset: -5px;
+}
+
+.league-box .badge {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 15px auto;
+}
+.league-box .badge img{
+    width: 100%;
+}
+.league-box .short-detail{}
+.league-box .short-detail h2{
+    font-size: 18px;
+    margin: 0;
+}
+.league-box .short-detail p{
+    margin: 0;
+}
+
+.league-box a {
+    color: wheat;
+    background: green;
+    padding: 5px 10px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: 500ms;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.league-box a:hover {
+    color: black;
+    text-decoration: none;
+}
+

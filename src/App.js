@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+
+//Router
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+//Font Awesome Library for individual component use
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+
+//Component Import
+import Home from './component/Home/Home';
+import LeagueDetail from './component/LeagueDetail/LeagueDetail';
+
+
+//Passing fonts using Library
+library.add(fab,fas)
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Switch>
+      <Route exact path="/">
+        <Home></Home>
+      </Route>
+      <Route  path="/home">
+        <Home></Home>
+      </Route>
+      <Route path="/league/:leagueId">
+        <LeagueDetail></LeagueDetail>
+      </Route>
+    </Switch>
+    </Router>
   );
 }
 

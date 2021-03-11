@@ -1,0 +1,20 @@
+.common-banner{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .common-banner h1{
+    color: white;
+    line-height: 200px;
+  }
+
+
+  @media (max-width: 767.98px) {
+    .common-banner h1{
+      line-height: 50px;
+    }
+  }
