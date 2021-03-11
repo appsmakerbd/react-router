@@ -7,7 +7,6 @@ import femaleImage from '../../images/female.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './LeagueDetail.css';
 import { Link } from 'react-router-dom';
-import { ExternalLink } from 'react-external-link';
 
 
 const LeagueDetail = () => {
