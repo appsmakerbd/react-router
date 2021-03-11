@@ -12,7 +12,7 @@ const ShowLeagues = (props) => {
     const url=`/league/${idLeague}`;
     return (
         
-        <div className="col-lg-4 col-md-4 col-sm-3 col-xs-12 league-box" id={idLeague}>
+        <div className="col-lg-4 col-md-4 col-sm-3 col-xs-12 league-box" key={props.league.idLeague}>
             <div className="inner-box">
                 <div className="badge">
                     <img src={img} alt={strLeague}/>

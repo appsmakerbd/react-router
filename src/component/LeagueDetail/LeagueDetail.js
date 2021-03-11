@@ -36,7 +36,7 @@ const LeagueDetail = () => {
 
     //If Logo not Found Condition start
     let genderImage;
-    strGender=="Male" ? genderImage=maleImage : genderImage=femaleImage;
+    strGender==="Male" ? genderImage=maleImage : genderImage=femaleImage;
     //Condition End
     
 

@@ -18,7 +18,7 @@ const Leagues = () => {
             <div className="container">
                 <div className="row">
                     {
-                    allLeagues.map(league => <ShowLeagues league={league}></ShowLeagues>)                
+                    allLeagues.map(league => <ShowLeagues league={league} key={league.idLeague}></ShowLeagues>)                
                     }
                 </div>
             </div>
