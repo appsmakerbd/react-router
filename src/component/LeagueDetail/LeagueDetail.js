@@ -44,7 +44,7 @@ const LeagueDetail = () => {
     return (
         <>
             <header className="container-fluid text-center common-banner"  style={{ backgroundImage: `url(${backgroundLeague})`,backgroundPosition:"center -400px" }}>
-               <img style={{width:"200px",margin:"auto"}} src={img} alt="Image"/>
+               <img style={{width:"200px",margin:"auto"}} src={img} alt="Working"/>
             </header>
 
             <div className="greenBg container-fluid leagueInfo">
