@@ -17,6 +17,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 //Component Import
 import Home from './component/Home/Home';
 import LeagueDetail from './component/LeagueDetail/LeagueDetail';
+import PageError from './component/PageError/PageError';
 
 
 //Passing fonts using Library
@@ -35,6 +36,9 @@ function App() {
       </Route>
       <Route path="/league/:leagueId">
         <LeagueDetail></LeagueDetail>
+      </Route>
+      <Route path="*">
+        <PageError></PageError>
       </Route>
     </Switch>
     </Router>
